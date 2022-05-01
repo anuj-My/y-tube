@@ -12,7 +12,7 @@ export default function SearchBar({ onTermSubmit }) {
     <div className="ui segment search-bar">
       <form onSubmit={onFormSubmit} className="ui form">
         <div className="field">
-          <label>Seach for a Video</label>
+          <label>Seach Video</label>
           <input
             type="text"
             onChange={(e) => setTerm(e.target.value)}
